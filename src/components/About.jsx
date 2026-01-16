@@ -5,22 +5,22 @@ const About = () => {
     {
       icon: Code,
       title: "Frontend Development",
-      description: "Experienced in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React.js, Next js, Git, GitHub, and some backend technologies",
+      description: "Experienced in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React.js, Next js, Api Integration, Rest API, Git and GitHub etc",
+    },
+     {
+      icon: Code,
+      title: "Backend Development",
+      description: "Experienced in Node.js, Express.js, MongoDB, Authentication, REST API, JavaScript, TypeScript and Render etc.",
     },
     {
       icon: Lightbulb,
       title: "AI Innovation",
-      description: "Creator of AI-powered Web applications including Newar Samaj, Medicare Nepal,  and Translator AI",
+      description: "Creator of AI-powered Web applications including Newar Samaj, Medicare Nepal, and Translator AI",
     },
     {
       icon: Users,
       title: "Learning Journey",
       description: "Continuously expanding knowledge through personal projects and coursework",
-    },
-    {
-      icon: Zap,
-      title: "Continuous Learning",
-      description: "Currently pursuing Bachelor of IT and staying updated with latest technologies",
     },
   ]
 
@@ -58,7 +58,7 @@ const About = () => {
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Learning Journey</h3>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Aspiring Web Developer with experience in creating dynamic websites and applications through personal projects. Currently building my skills through projects including{" "}
+                Aspiring Software Developer with experience in creating dynamic websites and applications through personal projects. Building my skills through projects including{" "}
                   <a
                   href="https://newarsamaj.vercel.app/"
                   target="_blank"

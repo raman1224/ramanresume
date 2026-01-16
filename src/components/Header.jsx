@@ -18,8 +18,8 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/raman-resume.pdf" // make sure the PDF is in `public` folder
-    link.download = "raman-resume.pdf"
+    link.href = "/ramanresume3.pdf" // make sure the PDF is in `public` folder
+    link.download = "ramanresume3.pdf"
     link.click()
   }
 

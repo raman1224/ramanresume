@@ -28,11 +28,11 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance">
-              Aspiring Software Developer & Full-Stack Enthusiast
+              Aspiring Software Developer & AI Integration
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty">
-              Currently pursuing Bachelor`s in Information Technology with expertise in React js, Next js, Node.js, TypeScript, Tailwind CSS, Java, and MongoDB.
+              Currently pursuing Bachelor`s in Information Technology and Next.js Intern finish with expertise in Next js, React js, API Integration, Node.js, TypeScript, Tailwind, Express.js, Authentication, and MongoDB.
               Passionate about creating innovative web applications and AI-powered solutions.
             </p>
 

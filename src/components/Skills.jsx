@@ -4,32 +4,33 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "HTML", level: 95, proficiency: "Advanced" },
-        { name: "CSS", level: 95, proficiency: "Advanced" },
-        { name: "JavaScript", level: 90, proficiency: "Full" },
+        { name: "HTML", level: 99, proficiency: "Advanced" },
+        { name: "CSS", level: 99, proficiency: "Advanced" },
+        { name: "JavaScript", level: 95, proficiency: "Full" },
         { name: "TypeScript", level: 90, proficiency: "Full" },
         { name: "Next.js", level: 90, proficiency: "Full" },
         { name: "React.js", level: 90, proficiency: "Full" },
         { name: "Tailwind CSS", level: 90, proficiency: "Full" },
         { name: "Responsive Design", level: 95, proficiency: "Advanced" },
+                { name: "API Integration", level: 80, proficiency: "Intermediate" },
       ],
     },
     {
       title: "Backend & Database",
       skills: [
-        { name: "SQL", level: 80, proficiency: "Intermediate" },
-        { name: "Java", level: 65, proficiency: "Limited" },
-        { name: "API Integration", level: 80, proficiency: "Intermediate" },
-        { name: "Database Management", level: 78, proficiency: "Intermediate" },
+        { name: "MongoDB", level: 99, proficiency: "Advanced" },
+        { name: "Node.js", level: 100, proficiency: "Advanced" },
+        { name: "Express.js", level: 88, proficiency: "Full" },
+        { name: "Authentication", level: 90, proficiency: "Full" },
       ],
     },
     {
       title: "Programming Languages",
       skills: [
+                { name: "Python", level: 80, proficiency: "Intermediate" },
+                        { name: "Java", level: 65, proficiency: "Limited" },
         { name: "C", level: 90, proficiency: "Full" },
-        { name: "Java", level: 65, proficiency: "Limited" },
         { name: "JavaScript", level: 93, proficiency: "Full" },
-        { name: "TypeScript", level: 90, proficiency: "Full" },
       ],
     },
     {
@@ -39,6 +40,8 @@ const Skills = () => {
         { name: "GitHub", level: 100, proficiency: "Advanced" },
         { name: "VS Code", level: 100, proficiency: "Advanced" },
         { name: "Vercel", level: 100, proficiency: "Advanced" },
+                { name: "Render", level: 90, proficiency: "Advanced" },
+
       ],
     },
   ]

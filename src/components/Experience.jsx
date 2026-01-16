@@ -3,20 +3,26 @@ import { Calendar, MapPin } from "lucide-react"
 const Experience = () => {
   const experiences = [
     {
-      title: "Independent Learning",
-      company: "Web Development Learner",
-      period: "2024 - Present",
-      location: "Kathmandu, Nepal",
-      type: "Self-Directed Learning",
-      description: "Continuously expanding my skills through hands-on projects and modern web development practices.",
-      achievements: [
-        "Learning Backend, Node.js, Python, Java, MongoDB",
-        "Developing daily projects: CRUD apps, APIs, authentication",
-        "Using GitHub for version control",
-        "Deployment: Deployed applications using Vercel, ensuring seamless integration and continuous deployment",
-      ],
-      current: true,
-    },
+  title: "Frontend (Next.js) Intern",
+  company: "Inflancer Technology",
+  period: "Nov 2025 - Jan 2026",
+  location: "Kathmandu, Nepal",
+  type: "Internship",
+  description:
+    "Worked on building and improving modern, scalable frontend applications using Next.js and TypeScript while collaborating closely with backend developers.",
+  achievements: [
+    "Developed and enhanced modern UI using Next.js, TypeScript, and Tailwind CSS",
+    "Integrated REST APIs provided by backend developers and implemented full CRUD functionality",
+    "Worked with Redux for state management and handled complex frontend logic",
+    "Collaborated with backend services built using Node.js and MongoDB",
+    "Used Postman for API testing and validation",
+    "Implemented smooth animations and interactions using Framer Motion",
+    "Focused on responsive design, performance optimization, and clean UI/UX",
+    "Tested API flows and frontend logic using Jest",
+  ],
+  current: false,
+},
+   
     {
       title: "Web Developer Intern (OJT)",
       company: "MMSS",
@@ -32,7 +38,21 @@ const Experience = () => {
       ],
       current: false,
     },
-   
+    {
+      title: "Independent Learning",
+      company: "Web Development and AI Learner",
+      period: "2024 - Present",
+      location: "Kathmandu, Nepal",
+      type: "Self-Directed Learning",
+      description: "Continuously expanding my skills through hands-on projects and modern web development practices.",
+      achievements: [
+        "Learning Backend, Python, AI Integration,  ",
+        "Developing daily projects: AI related features, APIs, authentication",
+        "Using GitHub for version control",
+        "Deployment: Deployed applications using Vercel, ensuring seamless integration and continuous deployment",
+      ],
+      current: true,
+    },
   ]
 
   return (
@@ -122,7 +142,7 @@ const Experience = () => {
             <p className="text-muted-foreground text-pretty">
               I`m actively seeking Frontend Developer Job to contribute to innovative Company and continue growing as a
               full-stack developer. My experience in both independent learning and collaborative environments has
-              prepared me for the challenges of modern web development. I am looking forward any frontend related job.
+              prepared me for the challenges of modern web development. I am looking forward any web dev related job.
             </p>
           </div>
         </div>
