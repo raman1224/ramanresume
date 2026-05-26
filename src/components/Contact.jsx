@@ -73,8 +73,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "dangolraman3@gmail.com",
-      href: "mailto:dangolraman3@gmail.com",
+      value: "dangolraman843@gmail.com",
+      href: "mailto:dangolraman843@gmail.com",
       color: "hover:bg-red-500/20 hover:scale-105 hover:shadow-lg transition-all duration-300",
     },
     {
@@ -111,7 +111,7 @@ const Contact = () => {
     {
       icon: MessageCircle,
       label: "Portfolio",
-      href: "#",
+      href: "https://wa.me/+9779763774451",
       color: "hover:bg-green-600 hover:text-white hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300",
       bgColor: "bg-gradient-to-br from-green-600 to-green-800",
     },

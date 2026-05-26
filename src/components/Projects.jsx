@@ -2,51 +2,52 @@ import { ExternalLink, Github, Sparkles } from "lucide-react"
 
 const Projects = () => {
   const projects = [
-    {
-      title: "DANGOL AI",
-      description:
-        "Advanced AI-powered application with machine learning capabilities and intelligent automation features.",
-      image: "g5.png",
-      technologies: ["React", "Node.js", "AI", "Python"],
-      liveUrl: "https://raman1224.github.io/DANGOL_AI",
-      githubUrl: "https://github.com/raman1224/DANGOL_AI",
-      featured: true,
-    },
+   
      {
       title: "NEWAR SAMAJ ",
       description: "Community website for Newar Samaj with event management and member portal.",
       image: "newarsamaj.png",
-      technologies: ["Next js", "React js", "TypeScript", "Node js"],
+      technologies: ["Next js", "React js", "TypeScript", "Node js", "MongoDB", "Tailwind CSS"],
       liveUrl: "https://newarsamaj.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/raman1224/newarsamaj",
       featured: false,
     },
     {
       title: "Medicare Nepal",
       description: "Healthcare management system for Nepal with appointment booking and patient management.",
       image: "workspace.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      liveUrl: "https://medicare-nepal-e6k7.vercel.app/",
-      githubUrl: "#",
+      technologies: ["Next.js", "React.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "API Integration"],
+      liveUrl: "https://medicarenepal.vercel.app/",
+      githubUrl: "https://github.com/raman1224/medicare-ai",
       featured: false,
     },
-    {
-      title: "Global GK",
+     {
+      title: "Jobde",
       description:
-        "Comprehensive knowledge sharing platform with articles on technology, science, and current affairs.",
-      image: "globalgk.png",
-      technologies: ["Blogger", "HTML", "CSS", "JavaScript"],
-      liveUrl: "https://globalgkwww.blogspot.com",
-      githubUrl: "#",
-      featured: false,
+        "Job Portal web built with Next.js, TypeScript, PostgreSQL, Tailwind, and Prisma for a fast and seamless hiring experience.",
+      image: "logo.png",
+      technologies: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL", "Prisma", "API Integration", "Redis", "Docker", "CI/CD"],
+      liveUrl: "https://jobde.vercel.app/",
+      githubUrl: "https://github.com/raman1224/Jobde",
+      featured: true,
+    },
+     {
+      title: "DANGOL AI",
+      description:
+        "Advanced AI-powered application with machine learning capabilities and intelligent automation features.",
+      image: "g5.png",
+      technologies: ["HTML", "CSS", "JavaScript", "AI Integration"],
+      liveUrl: "https://raman1224.github.io/DANGOL_AI",
+      githubUrl: "https://github.com/raman1224/DANGOL_AI",
+      featured: true,
     },
     {
       title: "Translator AI",
       description: "Real-time language translation tool powered by AI with support for multiple languages.",
       image: "translator.png",
-      technologies: [ "AI API", "JavaScript", "CSS"],
+      technologies: [ "AI Integration", "HTML", "JavaScript", "CSS"],
       liveUrl: "https://raman1224.github.io/englishtonepali/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/raman1224/englishtonepali",
       featured: false,
     },
     

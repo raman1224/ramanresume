@@ -3,9 +3,9 @@ import { Calendar, MapPin } from "lucide-react"
 const Experience = () => {
   const experiences = [
     {
-  title: "Frontend (Next.js) Intern",
+  title: "Next.js Developer Intern",
   company: "Inflancer Technology",
-  period: "Nov 2025 - Jan 2026",
+  period: "Jan 2026 - March 2026",
   location: "Kathmandu, Nepal",
   type: "Internship",
   description:
@@ -24,7 +24,7 @@ const Experience = () => {
 },
    
     {
-      title: "Web Developer Intern (OJT)",
+      title: "OJT Trainee",
       company: "MMSS",
       period: "May 2024 - Nov 2024",
       location: "Nuwakot, Nepal",
@@ -38,21 +38,7 @@ const Experience = () => {
       ],
       current: false,
     },
-    {
-      title: "Independent Learning",
-      company: "Web Development and AI Learner",
-      period: "2024 - Present",
-      location: "Kathmandu, Nepal",
-      type: "Self-Directed Learning",
-      description: "Continuously expanding my skills through hands-on projects and modern web development practices.",
-      achievements: [
-        "Learning Backend, Python, AI Integration,  ",
-        "Developing daily projects: AI related features, APIs, authentication",
-        "Using GitHub for version control",
-        "Deployment: Deployed applications using Vercel, ensuring seamless integration and continuous deployment",
-      ],
-      current: true,
-    },
+    
   ]
 
   return (

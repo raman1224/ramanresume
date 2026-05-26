@@ -32,8 +32,7 @@ const Hero = () => {
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty">
-              Currently pursuing Bachelor`s in Information Technology and Next.js Intern finish with expertise in Next js, React js, API Integration, Node.js, TypeScript, Tailwind, Express.js, Authentication, and MongoDB.
-              Passionate about creating innovative web applications and AI-powered solutions.
+              "Currently pursuing a Bachelor’s in Information Technology, I recently completed a Next.js internship from Inflancer Technology. I have expertise in Next.js, React, API integration, Node.js, TypeScript, Tailwind CSS, Express.js, Authentication, Redis, PostgreSQL and MongoDB. I am passionate about building innovative web applications and AI-powered solutions."
             </p>
 
             {/* CTA Buttons */}

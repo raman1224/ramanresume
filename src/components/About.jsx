@@ -60,7 +60,7 @@ const About = () => {
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Aspiring Software Developer with experience in creating dynamic websites and applications through personal projects. Building my skills through projects including{" "}
                   <a
-                  href="https://newarsamaj.vercel.app/"
+                  href="https://newarsamaj-eight.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
@@ -70,15 +70,35 @@ Newar Samaj
                   ,{" "}
 
    <a
-                  href="https://medicare-nepal-e6k7.vercel.app/"
+                  href="https://medicarenepal.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
                 >
                   Medicare Nepal
-                </a>                 ,{" "}
+                </a>                
+                 ,{" "}
+                   <a
+                  href="https://jobde.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
+                >
+                Jobde
+                </a>
+                ,{" "}
 
-                <a
+               
+                 <a
+                  href="https://mausamnow-orpin.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
+                >
+                  MausamNow
+                </a>
+                , {" "}
+                 <a
                   href="https://raman1224.github.io/DANGOL_AI"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -86,32 +106,19 @@ Newar Samaj
                 >
                   DANGOL AI
                 </a>
-                ,{" "}
-                <a
-                  href="https://globalgkwww.blogspot.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
-                >
-                  Global GK
-                </a>
-                , and{" "}
+                 {" "}and{" "}
                  <a
                   href="https://raman1224.github.io/englishtonepali/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-secondary transition-colors duration-200 cursor-pointer font-semibold"
                 >
-Translator AI                </a> .
+Translator AI            
+    </a> .
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Skilled in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React.js, Next js, C, Java, RESTful API, Git, GitHub, Vercel, API integration, and
+                Skilled in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React.js, Next js, Node.js, Express.js, MongoDB, PostgreSQL, Redis, Auth, REST APIs, Git, GitHub, Docker, CI/CD, Vercel, API integration, and
                 responsive design. Continuously expanding my knowledge through coursework and practical application.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Based in Kathmandu, Nepal, I`m currently pursuing my Bachelor`s in Information Technology while working on personal projects like the{" "}
-                <strong className="text-primary">Medicare Nepal</strong>
-                {" "}to enhance my backend development skills.
               </p>
             </div>
 

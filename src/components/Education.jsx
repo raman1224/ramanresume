@@ -15,7 +15,6 @@ const Education = () => {
         "AI Development",
         "Database Management Systems",
         "Web Development",
-        "App Development",
         "Software Engineering",
         "Object-Oriented Programming",
         "Computer Networks",
@@ -26,11 +25,11 @@ const Education = () => {
       degree: "+2 in Computer Engineering",
       institution: "Mahendra Maheshdev Secondary School",
       period: "2020 - 2024",
-      location: "Kathmandu, Nepal",
+      location: "Nuwakot, Nepal",
       gpa: "3.52 / 4.0",
       status: "Completed",
       description: "Built strong foundation in computer Engineering fundamentals and programming concepts.",
-      subjects: ["C++", "Java", "C-Sharp", "Mathematics", "Physics", "Chemistry"],
+      subjects: ["C++", "C", "C-Sharp", "Mathematics", "Physics", "Chemistry"],
       current: false,
     },
   ]
@@ -124,7 +123,7 @@ const Education = () => {
                   {edu.current && (
                     <div className="mt-4 flex items-center text-primary font-medium">
                       <div className="w-2 h-2 bg-primary rounded-full mr-2 animate-pulse"></div>
-                      <span>Currently Studying</span>
+                      <span>Currently Searching for Job</span>
                     </div>
                   )}
                 </div>
@@ -138,7 +137,7 @@ const Education = () => {
           <div className="bg-card border border-border rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-xl font-bold mb-4 text-primary">Continuous Learning</h3>
             <p className="text-muted-foreground text-pretty">
-              Beyond formal education, I`m constantly learning through online courses, documentation, and hands-on
+              Beyond formal education, I`m constantly learning, doing intern and searching a job through online courses, documentation, and hands-on
               projects. I believe in staying updated with the latest technologies and best practices in web development.
             </p>
           </div>
