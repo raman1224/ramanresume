@@ -26,7 +26,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/ramandangol"
+                href="https://linkedin.com/in/dangol1224"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-200"
@@ -34,7 +34,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto: dangolraman843@gmail.com"
+                href="mailto: dangolraman3@gmail.com"
                 className="p-2 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-200"
               >
                 <Mail size={20} />
@@ -78,7 +78,7 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>Kathmandu, Nepal</li>
               <li>+977 9763774451</li>
-              <li>dangolraman843@gmail.com</li>
+              <li>dangolraman3@gmail.com</li>
             </ul>
           </div>
         </div>
@@ -88,12 +88,15 @@ const Footer = () => {
             © {currentYear} Raman Dangol. All rights reserved.
           </p>
           <p className="text-muted-foreground text-center md:text-right mt-2 md:mt-0 flex items-center">
-           <img src="g5.png" alt="Logo" className="h-12 rounded-full mr-2" /> Developed by{" "}
+           {/* <img src="g5.png" alt="Logo" className="h-12 rounded-full mr-2" />
+             */}
+                         Developed by{" "}
+
             <a
-              href="https://raman1224.github.io/DANGOL_AI"
+              href="https://dangolai.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary hover:text-primary/80 transition-colors duration-200 ml-1 font-medium"
+className="text-primary hover:text-primary/87 active:text-primary/60 active:scale-95 transition-all duration-200 ml-1 font-medium"
             >
               DANGOL AI
             </a>

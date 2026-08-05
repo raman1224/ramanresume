@@ -2,6 +2,27 @@ import { Calendar, MapPin } from "lucide-react"
 
 const Experience = () => {
   const experiences = [
+       {
+  title: "MERN Stack Developer Intern",
+  company: "SRIYOG Consulting",
+  period: "Jun 2026 - Aug 2026",
+  location: "Kathmandu, Nepal",
+  type: "Internship",
+  description:
+    "Worked on full-stack web applications using the MERN stack and Next.js, building modern frontend interfaces, secure backend APIs, CMS features, and optimizing application performance for production-ready projects.",
+  achievements: [
+    "Developed responsive web applications using React, Next.js, TypeScript, and Tailwind CSS",
+    "Built a complete Admin CMS with authentication, role-based access control, and CRUD operations",
+    "Implemented Blog, Gallery, Events, Notices, and Popup management modules",
+    "Integrated Supabase Authentication, PostgreSQL, Row Level Security (RLS), and Storage",
+    "Migrated backend from MongoDB and Cloudinary to Supabase for improved security and scalability",
+    "Created reusable UI components and optimized applications using code splitting and lazy loading",
+    "Implemented SEO best practices including metadata, sitemap, robots.txt, and structured layouts",
+    "Collaborated with senior developers using Git and GitHub in an Agile workflow",
+    "Improved website performance, responsiveness, accessibility, and overall user experience"
+  ],
+  current: true,
+},
     {
   title: "Next.js Developer Intern",
   company: "Inflancer Technology",
@@ -38,7 +59,7 @@ const Experience = () => {
       ],
       current: false,
     },
-    
+ 
   ]
 
   return (

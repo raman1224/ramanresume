@@ -1,15 +1,17 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState, lazy, Suspense } from "react"
 
 import "./index.css"
 import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Skills from "./components/Skills"
-import About from "./components/About"
-import Experience from "./components/Experience"
-import Projects from "./components/Projects"
-import Education from "./components/Education"
-import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+
+// Code splitting sections below the fold
+const Hero = lazy(() => import("./components/Hero"))
+const Skills = lazy(() => import("./components/Skills"))
+const About = lazy(() => import("./components/About"))
+const Experience = lazy(() => import("./components/Experience"))
+const Projects = lazy(() => import("./components/Projects"))
+const Education = lazy(() => import("./components/Education"))
+const Contact = lazy(() => import("./components/Contact"))
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -39,13 +41,15 @@ function App() {
     <div>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <Contact />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Hero />
+          <About />
+          <Skills />
+          <Experience />
+          <Projects />
+          <Education />
+          <Contact />
+        </Suspense>
       </main>
       <Footer />
     </div>

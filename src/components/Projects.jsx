@@ -31,6 +31,16 @@ const Projects = () => {
       githubUrl: "https://github.com/raman1224/Jobde",
       featured: true,
     },
+      {
+      title: "Volleyball Tournament",
+      description:
+        "A full-stack volleyball tournament management platform that streamlines team registration, player management, payment verification, and tournament administration. Built with Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, and NextAuth, the platform provides a secure, responsive, and user-friendly experience for both participants and administrators.",
+      image: "vbt.jpeg",
+      technologies: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL", "Prisma", "API Integration", "Redis", "RBAC", "OTP Verification"],
+      liveUrl: "https://nbycvolleyballtournament.vercel.app/",
+      githubUrl: "https://github.com/raman1224/samdhicup",
+      featured: true,
+    },
      {
       title: "DANGOL AI",
       description:
